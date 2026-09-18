@@ -1,0 +1,70 @@
+# ============================================================
+# Vivado generated projects / build artifacts
+# ============================================================
+
+vivado_crc16/
+vivado_eeprom/
+vivado_fifo/
+vivado_ila/
+vivado_multichannel/
+vivado_rtc/
+vivado_stream/
+vivado_xadc/
+
+.Xil/
+*.cache/
+*.gen/
+*.hw/
+*.runs/
+*.sim/
+*.ip_user_files/
+
+*.jou
+*.log
+*.str
+*.pb
+*.wdb
+*.wcfg
+
+# Vivado-generated bitstreams / programming files
+*.bit
+*.ltx
+
+# Generated FIFO IP output; keep ip/fifo_w8xd128.xci
+ip/hdl/
+ip/synth/
+ip/*.dcp
+ip/*.xml
+ip/*.xdc
+ip/*_sim_netlist.*
+ip/*_stub.*
+
+# ============================================================
+# Large / generated capture data
+# ============================================================
+
+capture_*.bin
+capture_*.log
+capture_*_replay.json
+
+# Long-run generated datasets
+capture_*final_2h*.json
+
+# ============================================================
+# MATLAB generated output
+# ============================================================
+
+matlab_output/
+matlab/matlab_live_5s/
+
+# ============================================================
+# Temporary / OS files
+# ============================================================
+
+__pycache__/
+*.pyc
+*.tmp
+*.bak
+*~
+.DS_Store
+Thumbs.db

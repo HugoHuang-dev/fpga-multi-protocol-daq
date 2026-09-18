@@ -1,0 +1,27 @@
+{
+  "duration_seconds": 100.006,
+  "bytes_received": 256266,
+  "valid_frames_by_type": {
+    "83": 1,
+    "90": 6250,
+    "84": 1
+  },
+  "sample_frames": 6250,
+  "samples_received": 100000,
+  "sample_frames_per_second": 62.496,
+  "crc_errors": 0,
+  "invalid_lengths": 0,
+  "discarded_bytes_during_resync": 0,
+  "missing_sample_frames_by_sequence": 0,
+  "first_reported_drop_count": 0,
+  "last_reported_drop_count": 0,
+  "reported_drop_count_increase": 0,
+  "minimum_temperature_c": 32.61,
+  "maximum_temperature_c": 35.68,
+  "start_ack_received": true,
+  "stop_ack_received": true,
+  "incomplete_bytes_at_end": 0,
+  "mode": "live",
+  "raw_capture": "capture_10min.bin",
+  "finished_at_utc": "2026-09-17T09:58:23.757221+00:00"
+}

@@ -1,0 +1,100 @@
+{
+  "duration_seconds": 5.005,
+  "bytes_received": 12883,
+  "valid_frames_by_type": {
+    "83": 1,
+    "91": 312,
+    "92": 5,
+    "84": 1
+  },
+  "sample_frames": 312,
+  "samples_received": 4992,
+  "records_by_channel": {
+    "temperature": 1248,
+    "VCCINT": 1248,
+    "VCCAUX": 1248,
+    "VCCBRAM": 1248
+  },
+  "channel_ranges": {
+    "temperature": {
+      "minimum": 32.729,
+      "maximum": 35.313,
+      "unit": "C"
+    },
+    "VCCINT": {
+      "minimum": 1.002,
+      "maximum": 1.009,
+      "unit": "V"
+    },
+    "VCCAUX": {
+      "minimum": 1.798,
+      "maximum": 1.808,
+      "unit": "V"
+    },
+    "VCCBRAM": {
+      "minimum": 1.002,
+      "maximum": 1.009,
+      "unit": "V"
+    }
+  },
+  "invalid_sample_records": 0,
+  "rtc_time_markers": [
+    {
+      "next_batch_seq": 62,
+      "time": "2026-09-17 20:09:18",
+      "voltage_low": false,
+      "century_bit": false,
+      "frame_seq": 62,
+      "sample_frames_seen": 62
+    },
+    {
+      "next_batch_seq": 125,
+      "time": "2026-09-17 20:09:19",
+      "voltage_low": false,
+      "century_bit": false,
+      "frame_seq": 125,
+      "sample_frames_seen": 125
+    },
+    {
+      "next_batch_seq": 187,
+      "time": "2026-09-17 20:09:20",
+      "voltage_low": false,
+      "century_bit": false,
+      "frame_seq": 187,
+      "sample_frames_seen": 187
+    },
+    {
+      "next_batch_seq": 250,
+      "time": "2026-09-17 20:09:21",
+      "voltage_low": false,
+      "century_bit": false,
+      "frame_seq": 250,
+      "sample_frames_seen": 250
+    },
+    {
+      "next_batch_seq": 56,
+      "time": "2026-09-17 20:09:22",
+      "voltage_low": false,
+      "century_bit": false,
+      "frame_seq": 56,
+      "sample_frames_seen": 312
+    }
+  ],
+  "invalid_rtc_time_markers": 0,
+  "sample_frames_per_second": 62.344,
+  "crc_errors": 0,
+  "invalid_lengths": 0,
+  "discarded_bytes_during_resync": 0,
+  "missing_sample_frames_by_sequence": 0,
+  "first_reported_drop_count": 0,
+  "last_reported_drop_count": 0,
+  "reported_drop_count_increase": 0,
+  "minimum_temperature_c": 32.73,
+  "maximum_temperature_c": 35.31,
+  "start_ack_received": true,
+  "stop_ack_received": true,
+  "incomplete_bytes_at_end": 0,
+  "mode": "live",
+  "raw_capture": "capture_v8.bin",
+  "finished_at_utc": "2026-09-17T12:09:53.315547+00:00"
+}
