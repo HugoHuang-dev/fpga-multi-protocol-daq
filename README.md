@@ -4,6 +4,13 @@
 
 **Hardware: Davinci V2.1 / Xilinx Artix-7 XC7A35T · Tools: Vivado 2018.3, Verilog, ModelSim, MATLAB**
 
+## Highlights
+
+- **Synchronous RTL architecture:** multiple FSMs coordinating acquisition, communication, buffering, and peripheral control
+- **Data-path design:** dual-FIFO rate decoupling between acquisition and UART transmission, with shared-I²C bus arbitration for EEPROM/RTC access
+- **Digital design flow:** ModelSim → synthesis → static timing analysis → FPGA implementation → ILA verification
+- **Hardware validation:** 2-hour / 7.20M-record run with zero CRC errors, sequence gaps, or dropped samples
+
 The project began with a UART PING command and grew to include XADC acquisition, two FIFOs, CRC-16 framing, I²C EEPROM access, and an RTC. After the v8 functional design was completed in July, the development board was acquired in September. Board checks for each release, final system regression, MATLAB live acquisition, and ILA captures were then completed. The final v8 bitstream is generated from the checked-in RTL and build scripts.
 
 The acquisition source is the Artix-7 **on-chip XADC**, which reads four internal measurements: die temperature, VCCINT, VCCAUX, and VCCBRAM.
