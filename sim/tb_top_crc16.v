@@ -119,7 +119,7 @@ module tb_top_crc16;
                 received[24+j*8] !== expected_hi)
                 $fatal(1, "CRC16 queued frame mismatch at %0d", j);
         end
-        $display("PASS: course CRC16 framing, corrupt rejection, XADC, four queued frames");
+        $display("PASS: CRC16 framing, corrupt rejection, XADC, four queued frames");
         $finish;
     end
 

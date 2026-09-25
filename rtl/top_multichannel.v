@@ -140,7 +140,7 @@ module top_multichannel (
         .done(iic_done), .ack_error(iic_ack_error),
         .read_data(iic_read_data)
     );
-    // The course EEPROM controller uses a 10 ms post-write wait. Keep that
+    // Allow 10 ms for EEPROM write completion. Keep this
     // conservative guard for the board's unspecified 24C64 manufacturer.
     always @(posedge clkin_50m) begin
         if (rst) begin

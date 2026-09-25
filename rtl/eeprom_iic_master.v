@@ -12,8 +12,7 @@
 
 `timescale 1ns / 1ps
 
-// Single-byte 24C64 transactions at 100 kHz. Transaction ordering follows
-// the course Part 2 net11 IIC master; this subset adds open-drain lines,
+// Single-byte 24C64 transactions at 100 kHz with open-drain lines,
 // explicit ACK error/done signals, and one-byte read/write commands.
 module eeprom_iic_master #(
     parameter integer HALF_TICKS = 250 // 50 MHz / (2 * 100 kHz)

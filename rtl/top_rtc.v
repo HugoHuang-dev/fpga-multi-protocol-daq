@@ -228,7 +228,7 @@ module top_rtc #(
             end
         end
     end
-    // The course EEPROM controller uses a 10 ms post-write wait. Keep that
+    // Allow 10 ms for EEPROM write completion. Keep this
     // conservative guard for the board's unspecified 24C64 manufacturer.
     always @(posedge clkin_50m) begin
         if (rst) begin

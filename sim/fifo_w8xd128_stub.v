@@ -12,7 +12,7 @@
 
 `timescale 1ns / 1ps
 
-// Behavioral first-word-fall-through model of the course FIFO Generator IP.
+// Behavioral first-word-fall-through model of the FIFO Generator IP.
 // The Vivado project uses ip/fifo_w8xd128.xci instead.
 module fifo_w8xd128 (
     input wire clk,

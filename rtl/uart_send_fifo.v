@@ -12,10 +12,10 @@
 
 `timescale 1ns / 1ps
 
-// Based on XiaoBai FPGA Part 2 net5 uart_send.v and its fifo_w8xd128 IP.
+// UART transmitter with a first-word-fall-through 128-byte FIFO.
 // Adaptation: the FIFO's first-word-fall-through output feeds our UART TX
 // directly whenever the transmitter is ready. This avoids timing a separate
-// read pulse around the original course transmitter busy signal.
+// read pulse around the transmitter busy signal.
 module uart_send_fifo (
     input wire clk,
     input wire rst,

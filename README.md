@@ -42,6 +42,8 @@ The UART frame format is `A5 5A | TYPE | SEQ | LEN | PAYLOAD | CRC_LO | CRC_HI`.
 
 Stage-specific RTL, testbenches, and project-generation scripts are retained for regression. The final top level is [`rtl/top_rtc.v`](rtl/top_rtc.v). Implementation details for v5–v8 appear in the [continuous stream](STREAM_V1.md), [EEPROM](EEPROM_V1.md), [four-channel XADC](MULTICHANNEL_V1.md), and [RTC](RTC_V1.md) notes. During development, focused testbenches checked the FIFO, CRC, and I²C state machines; a system-level ModelSim regression followed in September.
 
+The UART/FIFO, CRC-16, and EEPROM I²C foundations originated in XiaoBai FPGA course examples; the system framing, XADC/RTC integration, and validation described here are project work.
+
 ## Design and integration notes
 
 **UART settings.** At the first board check, the serial utility was still configured for 19200 baud while the RTL used 115200. Setting both ends to 115200, 8N1, Hex restored PING and single XADC replies. Each later bitstream was checked with PING before testing its new function.

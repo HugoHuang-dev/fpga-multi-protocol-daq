@@ -13,7 +13,7 @@
 `timescale 1ns / 1ps
 
 // Project 1 protocol v2: A5 5A TYPE SEQ LEN PAYLOAD CRC16_LO CRC16_HI.
-// CRC-16/MODBUS over TYPE..PAYLOAD, using course Part 2 net6 crc16_d8.v.
+// CRC-16/MODBUS over TYPE..PAYLOAD.
 module top_crc16 (
     input wire clkin_50m,
     input wire rst_n,
