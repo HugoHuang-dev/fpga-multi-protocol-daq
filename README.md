@@ -91,7 +91,7 @@ On 2026-09-18, the final functional bitstream ran for **7200.009 seconds**. The 
 
 ## Rebuild from source
 
-This repository contains RTL, testbenches, board constraints, the FIFO IP configuration (`ip/fifo_w8xd128.xci`), host tools, and Vivado Tcl scripts. Generated `vivado_*` projects, bitstreams, probe files, and the full two-hour capture are excluded. The [final validation record](VALIDATION_FINAL_2026-09-18.md) retains the measured results and raw-stream SHA-256. Small [v7](fixtures/v7_short_uart.bin) and [v8](fixtures/v8_short_uart.bin) UART captures are included as offline decoding fixtures; the MATLAB replay test uses the v8 fixture.
+This repository contains RTL, testbenches, board constraints, the FIFO IP configuration (`ip/fifo_w8xd128.xci`), host tools, and Vivado Tcl scripts. Generated `vivado_*` projects, bitstreams, probe files, and the full two-hour capture are excluded. The [final validation record](VALIDATION_FINAL_2026-09-18.md) retains the measured results. Small [v7](fixtures/v7_short_uart.bin) and [v8](fixtures/v8_short_uart.bin) UART captures are included as offline decoding fixtures; the MATLAB replay test uses the v8 fixture.
 
 From the repository root with Vivado 2018.3 available:
 

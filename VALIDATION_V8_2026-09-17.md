@@ -1,6 +1,6 @@
 # v8 four-channel XADC + RTC board capture (2026-09-17)
 
-After programming `releases/xadc_rtc_v8.bit` on the Davinci Artix-7 board, USB UART at 115200 8N1 confirmed PCF8563 time-read response `87` and time-set acknowledgment `88`. `host/stream_monitor.py` then captured approximately five seconds. The raw stream is [v8 short-capture fixture](fixtures/v8_short_uart.bin) and the summary is [capture_v8.json](capture_v8.json). Raw-file SHA-256: `12D746C0A6F201E834A1980C41EE34C8DDB35F97BA4E70650331E8460C4BFB5C`.
+After programming `releases/xadc_rtc_v8.bit` on the Davinci Artix-7 board, USB UART at 115200 8N1 confirmed PCF8563 time-read response `87` and time-set acknowledgment `88`. `host/stream_monitor.py` then captured approximately five seconds. The raw stream is [v8 short-capture fixture](fixtures/v8_short_uart.bin) and the summary is [capture_v8.json](capture_v8.json).
 
 | Metric | Result |
 | --- | ---: |

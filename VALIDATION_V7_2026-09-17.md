@@ -20,6 +20,4 @@ The four channel ranges were die temperature 32.36–35.067 °C, VCCINT 1.002–
 py -3 .\host\stream_monitor.py --input .\fixtures\v7_short_uart.bin
 ```
 
-Raw-file SHA-256: `404C84B036587CE344E03719A74CC84C9C71B250B619F866B7EAF528750F33EC`.
-
 This board capture exercises the four internal XADC measurements, batch framing, CRC-16, FIFO, and UART. No CRC error, sequence gap, or FPGA-reported drop was detected in five seconds. The separate v6 100-second temperature stream is in [v6 validation](VALIDATION_2026-09-17.md).

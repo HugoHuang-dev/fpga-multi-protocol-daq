@@ -35,4 +35,4 @@ py -3 .\host\stream_monitor.py --input .\capture_v8_final_2h.bin --summary .\cap
 
 The measured run lasted **7200.009 seconds** and produced **449,989 sample frames, 7,199,824 records, and 7,199 RTC markers**. Every error count in the table was zero. Offline replay does not measure elapsed wall time, so `duration_seconds` and `sample_frames_per_second` are null in its summary.
 
-See the [final validation record](VALIDATION_FINAL_2026-09-18.md) for the two-hour data, raw capture, and hash. The earlier [five-second v8 capture](VALIDATION_V8_2026-09-17.md) is retained separately.
+See the [final validation record](VALIDATION_FINAL_2026-09-18.md) for the two-hour data and raw capture. The earlier [five-second v8 capture](VALIDATION_V8_2026-09-17.md) is retained separately.
